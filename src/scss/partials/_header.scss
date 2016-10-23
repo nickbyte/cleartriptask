@@ -1,0 +1,135 @@
+header {
+    background: #4A90E2;
+    overflow: auto;
+}
+
+.intro {
+    header {
+        margin: 15px 0;
+        background: none;
+        overflow: hidden;
+    }
+}
+
+.logo {
+    background: url('../img/logo.png') no-repeat;
+    width: 140px;
+    height: 30px;
+    text-indent: -9999px;
+    margin: 0;
+    padding: 10px;
+}
+
+.upper-deck {
+    height: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.currency-changer {
+    background: lighten(#4A90E2, 10%);
+    color: #fff;
+    padding-left: 10px;
+    width: 124px;
+    border-radius: 4px;
+    float: right;
+    font-size: 14px;
+}
+
+select {
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    padding: 5px 15px 5px 5px;
+    font-size: 14px;
+    height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('../img/down_caret.png') 96% no-repeat;
+}
+
+
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+
+@media screen and (min-width:0\0) {
+    select {
+        background: none;
+        padding: 5px;
+    }
+}
+
+.flight-data {
+    color: #fff;
+    line-height: 21px;
+    strong {
+        display: block;
+    }
+}
+
+.flight-location {
+    color: #fff;
+    width: 260px;
+    .avatar {
+        img {
+            width: 50px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    }
+    p {
+        margin: 0;
+        float: left;
+        display: inline-block;
+        font-size: 18px;
+        span {
+            display: block;
+            font-size: 14px;
+        }
+    }
+    .connector {
+        width: 80px;
+        height: 40px;
+        background: url(../img/connector.png) no-repeat;
+        display: inline-block;
+        background-size: 100%;
+        float: left;
+        margin: 0 10px;
+    }
+}
+
+.alert-box {
+    background: #F5A623;
+    overflow: auto;
+    clear: both;
+    color: #fff;
+    text-align: center;
+}
+
+.categories {
+    ul {
+        padding-left: 0;
+        li {
+            list-style: none;
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+    ul li {
+        a {
+            text-decoration: none;
+            color: #fff;
+            padding: 6px 10px;
+            border-radius: 44px;
+            display: inline-block;
+            min-width: 60px;
+            text-align: center;
+            &:hover {
+                background: lighten(#4A90E2, 10%);
+            }
+            &.active {
+                background: lighten(#4A90E2, 10%);
+            }
+        }
+    }
+}

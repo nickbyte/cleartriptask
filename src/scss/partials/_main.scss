@@ -1,0 +1,152 @@
+ .intro-page {
+     h2 {
+         font-size: 36px;
+         font-weight: 100;
+         color: #fff;
+         margin: 0;
+     }
+     .tracking-form {
+         max-width: 320px;
+         background: #FFFFFF;
+         padding: 10px 20px;
+         border-radius: 4px;
+         .field {
+             margin: 10px auto;
+             label {
+                 display: block;
+                 margin-bottom: 10px;
+             }
+             .input-text {
+                 width: 100%;
+                 padding: 10px;
+                 border-radius: 4px;
+                 border: 1px solid #dedede;
+             }
+         }
+         .btn-primary {
+             border: 0;
+             width: 100%;
+             padding: 10px;
+             background: #EC661F;
+             color: #fff;
+             text-transform: uppercase;
+             border-radius: 4px;
+         }
+     }
+ }
+ 
+ .main {
+     article {
+         h3 {
+             font-size: 18px;
+             font-weight: 200;
+         }
+         ul {
+             padding-left: 0;
+             li {
+                 display: inline-block;
+             }
+             li a {
+                 display: inline-block;
+                 background: #FFFFFF;
+                 box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+                 width: 160px;
+                 height: 50px;
+                 padding: 5px;
+                 text-align: center;
+                 border: 1px solid lighten(#dedede, 10%);
+                 margin-right: 20px;
+                 margin-bottom: 20px;
+             }
+         }
+     }
+ }
+ 
+ .products {
+     h3 {
+         margin-left: 15px;
+     }
+     .item {
+         background: #fff;
+         display: block;
+         width: 100%;
+         border: 1px solid #dedede;
+         text-align: center;
+         text-decoration: none;
+         margin: 10px 0;
+         img {
+             height: 250px;
+         }
+         h4 {
+             font-size: 16px;
+             font-weight: 200;
+             margin: 0;
+             color: #4A4A4A;
+         }
+         .price {
+             font-size: 16px;
+             color: #417505;
+             margin: 0;
+             margin-bottom: 5px;
+         }
+     }
+ }
+ 
+ .cover-pic {
+     padding-top: 10%;
+     height: 280px;
+     background: url(../img/mac_bg.png);
+     background-size: cover;
+     color: #fff;
+     .avatar img {
+         border-radius: 50%;
+     }
+     h2 {
+         font-size: 18px;
+         font-weight: 300;
+     }
+     p {
+         font-size: 14px;
+     }
+ }
+ 
+ .product-detail {
+     padding-top: 15px;
+     h2 {
+         font-weight: 300;
+         font-size: 18px;
+     }
+     p.price-info {
+         font-size: 21px;
+         line-height: 24px;
+         color: #417505;
+         span {
+             font-size: 12px;
+             display: block;
+             color: #4a4a4a;
+         }
+     }
+     .btn-normal {
+         background: #4A90E2;
+         border: 0;
+         color: #fff;
+         width: 120px;
+         padding: 7px;
+         border-radius: 4px;
+         &:hover {
+             background: lighten(#4A90E2, 10%);
+         }
+     }
+ }
+ 
+ .field.img {
+     text-align: center;
+     img {
+         width: 80px;
+     }
+ }
+ 
+ .home h3 {
+     font-size: 18px;
+     color: #4a4a4a;
+ }
