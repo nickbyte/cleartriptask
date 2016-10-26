@@ -126,6 +126,11 @@ select {
             list-style: none;
             display: inline-block;
             margin-right: 5px;
+            &.active {
+               a {
+                background: lighten(#4A90E2, 10%);
+               }
+            }
         }
     }
     ul li {
@@ -138,9 +143,6 @@ select {
             min-width: 60px;
             text-align: center;
             &:hover {
-                background: lighten(#4A90E2, 10%);
-            }
-            &.active {
                 background: lighten(#4A90E2, 10%);
             }
         }

@@ -70,4 +70,7 @@ var newFormat = '' + date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + da
     date: newFormat, 
     format: "on"
   });
+  $('.bar').click(function(){
+   $('.categories li').toggle();
+  })
 });

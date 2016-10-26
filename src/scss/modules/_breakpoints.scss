@@ -5,6 +5,19 @@
     .flight-location {
         margin: 10px auto;
     }
+    .cover-pic {
+        height:360px;
+    }
+    .categories {
+        ul {
+            li.active {
+             display: inline-block;
+            }
+            li {
+                display: none;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width:480px) {}
@@ -16,6 +29,19 @@
     }
     .flight-location {
         margin: auto;
+    }
+    .cover-pic {
+        height:280px;
+    }
+     .categories {
+        ul {
+            li.active {
+             display: inline-block;
+            }
+            li {
+                display: inline-block;
+            }
+        }
     }
 }
 
