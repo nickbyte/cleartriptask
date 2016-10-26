@@ -8,7 +8,7 @@
      .tracking-form {
          max-width: 320px;
          background: #FFFFFF;
-         padding: 10px 20px;
+         padding: 20px;
          border-radius: 4px;
          .field {
              margin: 10px auto;
@@ -55,8 +55,9 @@
                  padding: 5px;
                  text-align: center;
                  border: 1px solid lighten(#dedede, 10%);
-                 margin-right: 20px;
+                 margin-right: 10px;
                  margin-bottom: 20px;
+                 vertical-align: top;
              }
          }
      }

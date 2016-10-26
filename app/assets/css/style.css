@@ -728,7 +728,9 @@ body {
 
 .intro {
   background: url(../img/bg.png);
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -1101,6 +1103,8 @@ header {
   text-indent: -9999px;
   margin: 0;
   padding: 10px; }
+  .logo a {
+    display: block; }
 
 .upper-deck {
   height: 60px;
@@ -1139,6 +1143,14 @@ select {
   line-height: 21px; }
   .flight-data strong {
     display: block; }
+  .flight-data ul {
+    padding-left: 0; }
+    .flight-data ul li {
+      display: inline-block;
+      list-style: none;
+      width: 49%;
+      text-align: center;
+      margin: 5px auto; }
 
 .flight-location {
   color: #fff;
@@ -1203,7 +1215,7 @@ select {
 .intro-page .tracking-form {
   max-width: 320px;
   background: #FFFFFF;
-  padding: 10px 20px;
+  padding: 20px;
   border-radius: 4px; }
   .intro-page .tracking-form .field {
     margin: 10px auto; }
@@ -1241,8 +1253,9 @@ select {
     padding: 5px;
     text-align: center;
     border: 1px solid #f8f8f8;
-    margin-right: 20px;
-    margin-bottom: 20px; }
+    margin-right: 10px;
+    margin-bottom: 20px;
+    vertical-align: top; }
 
 .products h3 {
   margin-left: 15px; }
@@ -1352,6 +1365,31 @@ select {
   background: #333;
   color: #fff;
   text-shadow: none; }
+
+@media only screen and (min-width: 320px) {
+  .main article ul li a {
+    width: 320px; }
+  .flight-location {
+    margin: 10px auto; } }
+
+@media only screen and (min-width: 768px) {
+  .main article ul li a {
+    width: 165px;
+    margin-right: 10px; }
+  .flight-location {
+    margin: auto; } }
+
+@media only screen and (min-width: 1024px) {
+  .main article ul li a {
+    width: 165px;
+    margin-right: 10px; }
+  .flight-location {
+    margin: auto; } }
+
+@media only screen and (min-width: 1280px) {
+  .main article ul li a {
+    width: 170px;
+    margin-right: 10px; } }
 
 @media print {
   * {

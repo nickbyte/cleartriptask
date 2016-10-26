@@ -18,6 +18,9 @@ header {
     text-indent: -9999px;
     margin: 0;
     padding: 10px;
+    a {
+        display: block;
+    }
 }
 
 .upper-deck {
@@ -64,6 +67,16 @@ select {
     line-height: 21px;
     strong {
         display: block;
+    }
+    ul {
+        padding-left: 0;
+        li {
+            display: inline-block;
+            list-style: none;
+            width: 49%;
+            text-align: center;
+            margin: 5px auto;
+        }
     }
 }
 
